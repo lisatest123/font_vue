@@ -1,10 +1,6 @@
 <template>
     <div id="footer">
         <h2>根部组件-----{{msg}}</h2>
-        <ul>
-            <li>123</li>
-            <li>123</li>
-        </ul>
     </div> 
 </template>
 <script>
@@ -23,5 +19,10 @@ export default {
 // scoped 表示局部作用域
 </script>
 <style scoped>
-
+#footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 </style>
