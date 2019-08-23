@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <v-header></v-header>
-    <router-view/>
+    <div class="center_box">
+      <router-view/>
+    </div>
     <v-footer></v-footer>
   </div>
 </template>

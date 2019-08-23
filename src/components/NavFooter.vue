@@ -20,9 +20,9 @@ export default {
 </script>
 <style scoped>
 #footer{
-    width: 100%;
+    /* width: 100%;
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 0; */
 }
 </style>
